@@ -1,0 +1,27 @@
+[package]
+name = "Lesson20230703"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+members = [
+  "./Content",
+  "./Homework"
+]
+
+[[test]]
+name = "conditions"
+path = "./Homework/src/conditions.rs"
+
+[[test]]
+name = "strings"
+path = "./Homework/src/strings.rs"
+
+[[test]]
+name = "functions"
+path = "./Homework/src/functions.rs"
+
+
+[dependencies]
